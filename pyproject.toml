@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agtaam-project"
+version = "1.0.0"
+description = "New / Open / Save / Save As for a DEM app - standalone, no backend needed"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+qt = ["PyQt6"]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["agtaam_project"]
