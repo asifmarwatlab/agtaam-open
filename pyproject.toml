@@ -7,6 +7,14 @@ name = "agtaam-project"
 version = "1.0.0"
 description = "New / Open / Save / Save As for a DEM app - standalone, no backend needed"
 readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Muhammad Asif"}]
+keywords = ["gis", "dem", "project", "save", "open", "pyqt6"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: GIS",
+]
 requires-python = ">=3.9"
 dependencies = []
 
