@@ -1,11 +1,23 @@
-# agtaam-project
+# AGTAAM Open
 
-[![tests](https://github.com/AsifMarwat/agtaam-project/actions/workflows/tests.yml/badge.svg)](https://github.com/AsifMarwat/agtaam-project/actions)
+> The open-source building blocks of **A-GTAAM Terrain Studio**: reusable functions for DEM and GIS desktop apps.
+
+[![tests](https://github.com/AsifMarwat/agtaam-open/actions/workflows/tests.yml/badge.svg)](https://github.com/AsifMarwat/agtaam-open/actions)
 ![python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 
-**Project handling for DEM and GIS desktop apps: New, Open, Save, Save As.**
+## Modules
+| Module | What it gives you | Status |
+|---|---|---|
+| [`agtaam_project`](agtaam_project) | **Project handling: New, Open, Save, Save As**, unsaved-changes tracking | available |
+
+More A-GTAAM functions will be added here as separate modules. Each one stays independent, so you only take what you need.
+
+---
+
+## agtaam_project: project handling for DEM and GIS apps
+**New, Open, Save, Save As.**
 Pure Python with no dependencies, and an optional PyQt6 helper that adds the menu actions and
 the familiar "Save changes?" question.
 
@@ -38,8 +50,8 @@ can save and reopen. This library gives your app that idea in about 250 lines:
 
 ## Install
 ```bash
-pip install git+https://github.com/AsifMarwat/agtaam-project.git          # core
-pip install "agtaam-project[qt] @ git+https://github.com/AsifMarwat/agtaam-project.git"   # + PyQt6 helper
+pip install git+https://github.com/AsifMarwat/agtaam-open.git          # core
+pip install "agtaam-project[qt] @ git+https://github.com/AsifMarwat/agtaam-open.git"   # + PyQt6 helper
 ```
 Or copy the `agtaam_project/` folder into your project. Requires Python 3.9+.
 
